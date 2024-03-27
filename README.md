@@ -1,17 +1,30 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=14480674)
-# Intro to GitHub Classroom
-This example project is written in Python, and tested with [pytest](https://www.python.org/).
+---
+number: 28 # leave as-is, maintainers will adjust
+title: The Impact of Dataset Size on Bayesian Optimization, Insights from the QM9 Dataset
+topic: benchmark-task
+team_leads:
+  - Jose Manuel Napoles Duarte (Autonomous University of Chihuahua)
 
-## The assignment
+# Comment these lines by prepending the pound symbol (#) to each line to hide these elements
+contributors:
+  - Erick Lopez Saldivar (Autonomous University of Chihuahua) @SilkenMocha
+  - Christian Emmanuel Granados Cervantes (Autonomous University of Chihuahua) @Salario-Minimo
+  - Anthony Onwuli (Imperial College London) @AntObi
+  - Xuan Vu Nguyen (Università degli Studi di Milano Statale) @XuanVuNguyen
 
-The test in [`hello_test.py`](hello_test.py) is failing right now because the function in [`hello.py`](hello.py) isn't outputting the correct string. Fix this function and run the `pytest` command in the terminal to make the tests green.
+github: AC-BO-Hackathon/Chihuahuas
+# youtube_video: <your-video-id>
+---
 
-Next, open the "Source Control" button on the left sidebar, write a commit message, and commit and push your changes to GitHub.
+The "Chihuahuas" team's research focuses on establishing the critical threshold of dataset size for achieving reliable results 
+with Bayesian optimization for the QM9 dataset. Our study aims to discern the minimum dataset volume necessary for dependable 
+optimization outcomes, a question of paramount importance in fields where data may be scarce or costly to acquire. By systematically
+examining how Bayesian optimization performs across varying dataset sizes we intend to offer insights into the optimal use of limited 
+data resources. This endeavor is crucial for maximizing the efficacy of computational methods in scenarios where the dataset size is 
+constrained, ensuring that Bayesian optimization remains a viable and effective tool for advancing research and applications in 
+deep learning for chemistry and beyond.
 
-![](commit-and-push.gif)
+References:
 
-After committing and pushing your changes, the autograder will run your tests and give you a grade. To check your autograded scores, click on the GitHub Actions extension on the left sidebar, click the refresh button at the top-right corner of the sidebar, hover over the latest workflow run, and click the globe icon 🌐. Next, click the "Autograding" job button, click the dropdown for the "Run education/autograding" step, and scroll down to see your grade.
-
-![](github-actions-extension.gif)
-
-▶️ If you get stuck, refer to [the walkthrough video](https://github.com/AC-Classroom/intro-github-classroom/assets/45469701/93760bf7-0d27-49dc-8f66-7d50d428677f).
+1. Anatole von Lilienfeld and Kieron Burke. “Retrospective on a decade of machine learning for chemical discovery”. In: Nature Communications 11.1 (Sept. 2020). DOI: 10.1038/s41467- 020- 18556- 9. URL: https:
+//doi.org/10.1038/s41467-020-18556-9.
