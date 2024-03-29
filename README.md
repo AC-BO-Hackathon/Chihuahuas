@@ -45,6 +45,8 @@ Results:
 | 1800 | 0.014614         | 0.002025        |
 | 2000 | 0.009610         | 0.001134        |
 
+![](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/LR.png)
+
 |   N  | Batch Size | Loss       |
 |------|--------|------------|
 |  200 | 120    | 0.0080974  |
@@ -57,6 +59,8 @@ Results:
 | 1600 | 16     | 0.002007   |
 | 1800 | 18     | 0.002203   |
 | 2000 | 16     | 0.002041   |
+
+![](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/BS.png)
 
 |   N  | # of Neurons | Loss       |
 |------|--------|------------|
@@ -71,6 +75,7 @@ Results:
 | 1800 | 48     | 0.001758   |
 | 2000 | 59     | 0.001668   |
 
+![](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/NN.png)
 
 
 
