@@ -24,6 +24,13 @@ data resources. This endeavor is crucial for maximizing the efficacy of computat
 constrained, ensuring that Bayesian optimization remains a viable and effective tool for advancing research and applications in 
 deep learning for chemistry and beyond.
 
+Code:
+You can see the code for optimizing:
+
+1) [Learning rate](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/BO_learning_rate.ipynb)
+2) [Batch Size](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/BO_batch_size.ipynb)
+3) [Number of Neurons](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/BO_n_neurons2.ipynb)
+
 Results:
 |   N  | Learning Rate          | Loss            |
 |------|------------------|-----------------|
