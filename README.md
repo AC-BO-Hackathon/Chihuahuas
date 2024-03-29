@@ -25,7 +25,7 @@ data resources. This endeavor is crucial for maximizing the efficacy of computat
 constrained, ensuring that Bayesian optimization remains a viable and effective tool for advancing research and applications in 
 deep learning for chemistry and beyond.
 
-[![IMAGE ALT TEXT HERE]([https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/youtube.png](https://www.youtube.com/watch?v=hvODyYejxuc)
+https://www.youtube.com/watch?v=hvODyYejxuc
 
 # Introduction:
 
