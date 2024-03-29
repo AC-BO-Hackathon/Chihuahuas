@@ -24,6 +24,20 @@ data resources. This endeavor is crucial for maximizing the efficacy of computat
 constrained, ensuring that Bayesian optimization remains a viable and effective tool for advancing research and applications in 
 deep learning for chemistry and beyond.
 
+Introduction:
+
+The primary purpose of this research is to investigate the efficacy of Bayesian Optimization (BO) in tuning hyperparameters of Graph Convolutional Neural Networks (GCNNs) across datasets of varying sizes from the QM9 dataset, focusing on parameters such as learning rate, batch size, and number of neurons. This study is driven by the challenge of optimizing machine learning models in the context of limited data availability—a common scenario in the fields of chemistry and materials science. By systematically exploring the impact of dataset size on the BO process, the research aims to:
+
+Determine the Minimum Viable Dataset Size: Identify the smallest dataset size that allows for the effective application of BO to tune the GCNN hyperparameters, providing valuable insights into the feasibility of applying machine learning techniques to small datasets in computational chemistry.
+
+Optimize Model Performance: Through the optimization of critical hyperparameters, enhance the accuracy and efficiency of GCNN models in predicting molecular properties, thereby contributing to more efficient computational experiments and the potential discovery of novel materials.
+
+Provide a Methodological Blueprint: Offer a comprehensive framework for applying BO in scenarios where data is scarce, including guidelines for selecting hyperparameters and adjusting optimization strategies based on dataset size.
+
+Address the Challenges of Data Scarcity: By demonstrating the applicability of BO to smaller datasets, this research addresses a significant barrier in computational chemistry and materials science, paving the way for the advancement of research even when large datasets are not available.
+
+Ultimately, this research seeks to bridge the gap between the potential of machine learning in theoretical chemistry and the practical limitations posed by data availability, fostering innovation and discovery in the field.
+
 Code:
 
 You can see the code for optimizing:
