@@ -15,7 +15,7 @@ contributors:
 github: AC-BO-Hackathon/Chihuahuas
 # youtube_video: <your-video-id>
 ---
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hvODyYejxuc/0.jpg)](https://www.youtube.com/watch?v=hvODyYejxuc)
+#[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hvODyYejxuc/0.jpg)](https://www.youtube.com/watch?v=hvODyYejxuc)
 
 The "Chihuahuas" team's research focuses on establishing the critical threshold of dataset size for achieving reliable results 
 with Bayesian optimization for the QM9 dataset. Our study aims to discern the minimum dataset volume necessary for dependable 
