@@ -26,7 +26,8 @@ constrained, ensuring that Bayesian optimization remains a viable and effective 
 deep learning for chemistry and beyond.
 
 
-![[video](https://www.youtube.com/watch?v=hvODyYejxuc)](https://raw.githubusercontent.com/AC-BO-Hackathon/Chihuahuas/main/youtube.png)
+
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/AC-BO-Hackathon/Chihuahuas/main/youtube.png)](https://www.youtube.com/watch?v=hvODyYejxuc)
 # Introduction:
 
 The primary purpose of this research is to investigate the efficacy of Bayesian Optimization (BO) in tuning hyperparameters of Graph Convolutional Neural Networks (GCNNs) across datasets of varying sizes from the QM9 dataset, focusing on parameters such as learning rate, batch size, and number of neurons. This study is driven by the challenge of optimizing machine learning models in the context of limited data availability—a common scenario in the fields of chemistry and materials science. By systematically exploring the impact of dataset size on the BO process, the research aims to:
