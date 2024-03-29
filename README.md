@@ -92,7 +92,9 @@ Results:
 
 ![](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/NN.png)
 
+Conclusion
 
+Bayesian Optimization was used to find the best hyperparameters of Graph Convolutional Neural Networks trained with subsets of small size of the QM9 Dataset, from 200 to 2000 molecules. We find that even for the lowest subset, the loss obtained for the best hyerparameters is acceptable, although clearly there is a dependence with the size of the dataset, showing better performance as N increases. However, the time consumed to reach convergence also increases rapidly, making it clear that it is worth doing this kind of fine tunning of hyperparameters. 
 
 References:
 
