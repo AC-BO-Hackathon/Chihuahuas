@@ -25,6 +25,7 @@ constrained, ensuring that Bayesian optimization remains a viable and effective 
 deep learning for chemistry and beyond.
 
 Code:
+
 You can see the code for optimizing:
 
 1) [Learning rate](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/BO_learning_rate.ipynb)
