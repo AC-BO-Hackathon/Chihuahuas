@@ -16,6 +16,7 @@ github: AC-BO-Hackathon/Chihuahuas
 # youtube_video: <your-video-id>
 ---
 
+# The Impact of Dataset Size on Bayesian Optimization, Insights from the QM9 Dataset
 
 The "Chihuahuas" team's research focuses on establishing the critical threshold of dataset size for achieving reliable results 
 with Bayesian optimization for the QM9 dataset. Our study aims to discern the minimum dataset volume necessary for dependable 
@@ -28,7 +29,7 @@ deep learning for chemistry and beyond.
 
 
 [![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/AC-BO-Hackathon/Chihuahuas/main/youtube.png)](https://www.youtube.com/watch?v=hvODyYejxuc)
-# Introduction:
+## Introduction:
 
 The primary purpose of this research is to investigate the efficacy of Bayesian Optimization (BO) in tuning hyperparameters of Graph Convolutional Neural Networks (GCNNs) across datasets of varying sizes from the QM9 dataset, focusing on parameters such as learning rate, batch size, and number of neurons. This study is driven by the challenge of optimizing machine learning models in the context of limited data availability—a common scenario in the fields of chemistry and materials science. By systematically exploring the impact of dataset size on the BO process, the research aims to:
 
@@ -42,7 +43,7 @@ Address the Challenges of Data Scarcity: By demonstrating the applicability of B
 
 Ultimately, this research seeks to bridge the gap between the potential of machine learning in theoretical chemistry and the practical limitations posed by data availability, fostering innovation and discovery in the field.
 
-# Code: 
+## Code: 
 
 You can see the code for optimizing:
 
@@ -50,7 +51,7 @@ You can see the code for optimizing:
 2) [Batch Size](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/BO_batch_size.ipynb)
 3) [Number of Neurons](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/BO_n_neurons2.ipynb)
 
-Results:
+## Results:
 |   N  | Learning Rate          | Loss            |
 |------|------------------|-----------------|
 |  200 | 0.084878         | 0.010064        |
@@ -96,11 +97,11 @@ Results:
 
 ![](https://github.com/AC-BO-Hackathon/Chihuahuas/blob/main/NN.png)
 
-Conclusion
+## Conclusion
 
 Bayesian Optimization was used to find the best hyperparameters of Graph Convolutional Neural Networks trained with subsets of small size of the QM9 Dataset, from 200 to 2000 molecules. We find that even for the lowest subset, the loss obtained for the best hyerparameters is acceptable, although clearly there is a dependence with the size of the dataset, showing better performance as N increases. However, the time consumed to reach convergence also increases rapidly, making it clear that it is worth doing this kind of fine tunning of hyperparameters. 
 
-References:
+### References:
 
 1. Anatole von Lilienfeld and Kieron Burke. “Retrospective on a decade of machine learning for chemical discovery”. In: Nature Communications 11.1 (Sept. 2020). DOI: 10.1038/s41467- 020- 18556- 9. URL: https:
 //doi.org/10.1038/s41467-020-18556-9.
