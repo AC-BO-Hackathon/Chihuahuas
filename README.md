@@ -3,7 +3,7 @@ number: 28 # leave as-is, maintainers will adjust
 title: The Impact of Dataset Size on Bayesian Optimization, Insights from the QM9 Dataset
 topic: benchmark-task
 team_leads:
-  - Jose Manuel Napoles Duarte (Autonomous University of Chihuahua)
+  - Jose Manuel Napoles Duarte (Autonomous University of Chihuahua) @napoles-uach
 
 # Comment these lines by prepending the pound symbol (#) to each line to hide these elements
 contributors:
